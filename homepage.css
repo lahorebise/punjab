@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* ----------------------------------------------Online Links------------------------------------- */
+#table1{
+	width: 1280px;
+	height:330px;
+	background-color:#F9F9F9;
+	margin-top:0px;
+	margin-left:-20px;
+	margin-top:-10px;
+	font-size:12px;}
+#table1 img {width:50px; height:50px;}
+#table1 table td{ width:100px; height:20px; align:center;}
+#table1 table td:hover{color:#000000; background-color:#008CBA; transform: rotateY(360deg); transition: transform 2s; transform-style: preserve-3d;}
+
+#table1 table td a:hover{color:white; background-color:#008CBA; font-size:13px;}
+#table1 a:visited{color:black;}
+
+\\#online ul{width:150px; height:150px; color: black; background-color:#6F0166; border-color:black; margin-top:-10px; line-height:150px; text-align:center;}
+\\#online li hover{display:none; color: white;background-color:white;}
+
+#homepage{position:relative; margin:33px auto 30px; display:block; width:100%;}
+
+/* ----------------------------------------------Left Column------------------------------------- */
+
+#homepage #left_column{display:block; float:left; width:230px; margin-top:-270px;}
+#homepage #left_column a{color:black; margin-top:10px;}
+#homepage #left_column a:hover{color:white;}
+#homepage #newpageleft_column{display:block; float:left; width:230px; margin-top:20px; margin-left:20px;}
+#homepage #newpageleft_column a{color:#2A0000; font-size:13px; background-color:none}
+#homepage #newpageleft_column a:hover{color:white; font-size:13px; font-weight:bold; background-color:#23576b; border-radius:5px; padding:3px}
+#homepage #left_column .imgholder{margin-bottom:20px;}
+#homepage #left_column .npimgholder{margin-bottom:20px;}
+
+/* ----------------------------------------------Latest News------------------------------------- */
+
+#homepage #latestnews{display:block; float:left; width:650px; margin-left:20px; margin-top:-270px;}
+#homepage #latestnews a{color: black;}
+#homepage #latestnews a:hover{color: white; background-color:#008CBA; padding:3px; border-radius:5px;}
+#newpage{display:block; float:left; width:960px; margin-top:20px; margin-left:30px; padding:5px 5px 5px 5px; border:groove 5px #CCCCFF; border-radius:5px;}
+#newpage .newpagehd{width:950px; background-color:lightblue; border-radius:5px; padding:5px 5px 1px 5px; font-size:18px; text-align:center;}
+#newpage .aboutushd{width:950px; background-color:lightblue; border-radius:5px; padding:5px 5px 1px 5px; font-size:18px;}
+#newpage .aboutuspr{width: 950px; background-color:none; border-radius:0px; padding:5px; font-family:"Times New Roman"; font-size:14px; text-align:justify; line-height:2; text-indent:0px}
+#homepage #newpage .br{width:950px; background-color:lightblue; border-radius:5px; padding:5px; font-family:"Balloon XBd BT"; font-size:20px}
+#homepage #latestnews ul{margin:0; padding:0; list-style:none;}
+#homepage #latestnews li{display:block; width:100%; margin:0 0 20px 0; padding:0 0 20px 0; list-style:none; border-bottom:1px solid #DEDACB;}
+#latestnews .latestnews{display:block; float:right; width:600px; margin:0; padding:0;}
+#latestnews .latestnews p{margin:0 0 8px 0; padding:0;}
+#latestnews .imgl{margin:0;}
+#latestnews p.readmore{display:block; width:100%; clear:both; margin:20px 0px 0px 0px; padding:0; text-align:right;}
+
+
+/* ----------------------------------------------Downloads------------------------------------- */
+#forms{font-family:"Bookman Old Style"; font-size:14px; border-collapse: collapse; width: 959px; color:black}
+#forms a{  font-family:"Bookman Old Style"; font-size:14px; border-collapse: collapse; width: 959px; color:black;}
+#forms a:hover {background-color:#2A3F55; color:#FFFF66; font-size:14px}
+#forms td, #forms th {border: 1px solid #ddd; padding:8px;}
+#forms tr:nth-child(even){background-color:white;}
+#forms tr:hover {background-color:#2A3F55; color:#FFFF66;font-size:17px}
+#forms th {padding-top: 12px; padding-bottom: 12px; text-align: left; background-color: #4CAF50; color: white;}
+#downloads {width:100%; height:100%}
+
+/* ----------------------------------------------Right Column------------------------------------- */
+
+#homepage #right_column{display:block; float:left; width:320px; margin-left: 10px; margin-top:-253px;}
+#homepage #right_column a{color:white;}
+#homepage #right_column a:hover{color:black;}
+#homepage #right_column .holder{display:block; width:100%; margin-bottom:20px; margin-top:-17px;}
+#homepage #right_column .apply a{display:block; width:320px; height:70px; margin-bottom:20px; color:#666666; background-color:#DEDACB; font-size:15px; text-transform:uppercase; overflow:hidden;}
+#homepage #right_column .apply a strong{display:block; float:right; width:240px; height:72px; padding-top:28px; text-align:center; cursor:pointer;}
+#homepage #right_column .apply img{display:block; float:left; width:70px; height:70px;}
+
+/* ---------------------------------------------Twitter------------------------------------- */
+
+#twitter{margin:20px 0px 20px 20px; border:2px solid thick;}
+#twitter .twitter-timeline{font-size:10px;}
+
+/* ----------------------------------------------Academic link Block------------------------------------- */
+
+#academiclinks{display:block; position:relative; margin-left:20px; width:1240px; color:#006666;}
+#newpageacademiclinks{display:block; width:1240px; color:#006666;margin-top:0px; background-color:#CCCCCC;}
+#academiclinks .linkbox{
+	display:block;
+	float:left;
+	width:400px;
+	font-size:14px;
+	margin-left:10px;}
+#newpageacademiclinks .nplinkbox{
+	display:block;
+	float:left;
+	width:400px;
+	font-size:14px;
+	margin-top:0px;}
+a:hover {color:#23576b;  background-color:#FFFFFF;  text-decoration:blink; border-radius:5px;}
+a:active {color:#003366;  background-color:#99CCFF;  text-decoration:underline; border-radius:5px;}
+#academiclinks a{font-size:14px;}
+#academiclinks a:hover{font-size:14px; background-color:#23576b; color:#FFFFFF; padding:5px;}
+#academiclinks ul{margin:0; padding:0px; list-style:none; line-height:1.75;}
+#academiclinks .last{margin:0;}
+#linkboximg {display:flex; justify-content:center; align-items:center; float:right; padding:5px; width:310px; height:200px; border:none; margin-right:70px;}
+#linkboximg a{background-color:none; padding:inherit;}
+#linkboximg a:hover{background-color:white; padding:inherit;}
+#linkboximg img{display:block; margin:auto; vertical-align:middle; width:95%; height:950%; border:4px solid #c5e1ec; border-radius:15px;}
+#linkboximg img:hover{width:100%; height:100%; border:4px solid #008CBA; border-radius:15px;}
+
+
+/* ----------------------------------------------Buttons------------------------------------- */
+
+
+.button {
+  display:inline-block;
+  background-color:#4CAF50; /* Green */
+  border:none;
+  width:200px;
+  height:35px;
+  padding-top:7px;
+  outline:none;
+  text-align:center;
+  text-decoration:none;
+  display:inline-block;
+  font-family: Times New Roman;
+  font-size:12px;
+  margin-top:5px;
+  border-radius:15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow:0 2px #008CBA;
+  text-align:center;
+}
+
+.button1 {background-color:white; color:black; border:2px solid #008CBA; border-radius:15px;}
+.button1:hover {background-color:#008CBA; color:white; width:200px; height:35px; border-radius:15px;}
+.button1:active {background-color:#008CBA; box-shadow: 0 5px #666; transform: translateY(4px); border-radius:15px;}
+
+.button2 {background-color:#008CBA; width:300px; height:25px; color:white; border:2px solid white; border-radius:15px;}
+.button2:hover {background-color:#c5e1ec; color:#008CBA; width:310px; height:35px; padding-top:25px; border-radius:15px;}
+.button2:active {background-color:#008CBA; color:white; box-shadow: 0 5px white; transform: translateY(4px); border-radius:15px;}
+
+.button3 {background-color:#c5e1ec; color:black; border:2px solid #008CBA; border-radius:15px;}
+.button3:hover {background-color:#008CBA; color:white; width:200px; height:35px; border-radius:15px;}
+.button3:active {background-color:#008CBA; box-shadow: 0 5px #666; transform: translateY(4px); border-radius:15px;}
+
+.button4 {background-color: #00FF99; color:black; border:2px solid #008CBA; border-radius:15px;}
+.button4:hover {background-color:#008CBA; color:white; width:200px; height:35px; border-radius:15px;}
+.button4:active {background-color:#008CBA; box-shadow: 0 5px #666; transform: translateY(4px); border-radius:15px;}
+
+
+.button5 {background-color: #6699FF; border:2px solid #008CBA; border-radius:15px;}
+.button5:hover {background-color: #330066; color:white; width:200px; height:35px; border-radius:15px;}
+.button5:active {background-color: #000033; box-shadow: 0 5px #666; transform: translateY(4px); border-radius:15px;}
+
+
+/* ---------------------------------------------- Alert ------------------------------------- */
+
+#mask {
+  width:100%;
+  height:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:-1;
+  background-color: black;
+  opacity: 0.75;
+  cursor: auto;
+  }
+
+#mask2 {
+  width:100%;
+  height:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:-1;
+  background-color: #99FFCC;
+  opacity: 0.75;
+  cursor: auto;
+  }
+  
+#popalert {
+  position: fixed;
+  top:15%;
+  left:36%;
+  margin: auto;
+  width: 500px;
+  z-index:1001;
+}
+
+#pop-header {
+  border-radius: 5px 5px 0px 0px;
+  padding: 5px 5px;
+  background: #555;
+  font-size: 20px;
+  font-weight:bold;
+  border: 1px solid black;
+  color: black;
+  background-color:#00CCCC;
+  width: 500px;
+}
+
+#pop-container {
+  padding: 5px;
+  background-color: #D8D3DA;
+  border: solid 1px black;
+  border-radius: 0px 0px 5px 5px;
+  height:300px;
+  width: 500px;
+  font-family:"Times New Roman", Times, serif;
+}
+
+#pop-container a{
+  color: #004400;
+  font-size: 13px;
+}
+
+#pop-container a:hover{
+  background-color: green;
+  color: white;
+  font-size: 13px;
+}
+
+#pop-container ul {
+  list-style: none;
+}
+
+#pop-container li::before {
+	content: '\25BA';
+  color: black;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+  line-height:1.5;
+}
+
+#pop-container2 {
+  padding: 5px;
+  background-color: #D8D3DA;
+  color: black;
+  font-size: 16px;
+  border: solid 1px black;
+  border-radius: 0px 0px 5px 5px;
+  height:300px;
+  width: 500px;
+  text-align: center;
+  font-family:"Times New Roman", Times, serif;
+}
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.closebtn:hover {
+  color: white;
+  font-size: 18px;}
+  
+/* --------------------------- Deputationist Dropdown ------------------------------ */
+  .dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: green;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: green;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: green;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

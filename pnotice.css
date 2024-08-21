@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+        #overlay
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=70);
+            -moz-opacity: 0.7;
+            -khtml-opacity: 0.7;
+            opacity: 0.7;
+            z-index: 100;
+            display: none;
+        }
+        .img a
+        {
+            text-decoration: none;
+        }
+        .popup
+        {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+        .img
+        {
+            min-width: 150px;
+            width: 600px;
+            min-height: 150px;
+            height: 400px;
+            margin: 20px auto;
+            background: grey;
+            position: relative;
+            z-index: 103;
+            padding: 1px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #000;
+           
+        }
+        .img p
+        {
+            clear: both;
+            color: #555555;
+            text-align: justify;
+        }
+        .img p a
+        {
+            color: #d91900;
+            font-weight: bold;
+        }
+        .img .x
+        {
+            float: right;
+            height: 30px;
+            left: 15px;
+            position: relative;
+            top: -15px;
+            width: 30px;
+        }
+        .img .x:hover
+        {
+            cursor: pointer;
+        }
+
